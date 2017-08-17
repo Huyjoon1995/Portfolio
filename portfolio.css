@@ -1,0 +1,171 @@
+body{
+  background-color:#00FFFF;
+}
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+  margin-right: 20px;
+}
+
+.container-fluid{
+    background-color: black;
+    border-color: #E7E7E7;
+    font-size: 19px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li,a{
+    display: inline;
+    color: white;
+    font: oswald;
+    text-decoration: none;
+}
+/*hr*/
+hr{
+  border: 5px solid black;
+}
+/*profile picture*/
+.profile{
+  border-radius:50%;
+  height: 250px;
+  width: 250px;
+}
+#biography{
+  font-family: Lobster;
+  font-size: 16px;
+  color: grey;
+}
+.html,.css,.javascript,.php,.sql,.java,.python,.perl,.bootstrap,.xamarin,.github{
+  background-color: grey;
+  border: 5px solid black;
+  border-radius: 7px;
+  display:inline-block;
+  margin: 50px;
+  padding: 15px;
+  height: 250px;
+  width: 25%;
+}
+#work{
+  font-family: Lobster;
+  font-size: 18px;
+}
+.card,.card1,.card2,.card3,.card4,.card5,.card6,.card7{
+  display:inline-block;
+  height:200px;
+  width: 18%;
+  margin: 25px;
+  position: relative;
+  perspective: 500px;
+}
+/*hover for card*/
+.card:hover .front{
+  transform: rotateY(-180deg);
+   
+}
+.card:hover .back{
+  transform: rotateY(0deg);
+}
+/*hover for card1*/
+.card1:hover .front{
+  transform: rotateY(-180deg);
+   
+}
+.card1:hover .back{
+  transform: rotateY(0deg);
+}
+/*hover for card2*/
+.card2:hover .front{
+  transform: rotateY(-180deg);
+   
+}
+.card2:hover .back{
+  transform: rotateY(0deg);
+}
+/*hover for card3*/
+.card3:hover .front{
+  transform: rotateY(-180deg);
+   
+}
+.card3:hover .back{
+  transform: rotateY(0deg);
+}
+/*hover for card4*/
+.card4:hover .front{
+  transform: rotateY(-180deg);
+   
+}
+.card4:hover .back{
+  transform: rotateY(0deg);
+}
+/*hover for card5*/
+.card5:hover .front{
+  transform: rotateY(-180deg);  
+}
+.card5:hover .back{
+  transform: rotateY(0deg);
+}
+/*hover for card6*/
+.card6:hover .front{
+  transform: rotateY(-180deg);  
+}
+.card6:hover .back{
+  transform: rotateY(0deg);
+}
+/*hover for card7*/
+.card7:hover .front{
+  transform: rotateY(-180deg);  
+}
+.card7:hover .back{
+  transform: rotateY(0deg);
+}
+/*content*/
+.content1,.content2,.content3,.content4,.content5,.content6,.content7,.content8{
+  font-style:italic;
+  margin-left:auto;
+  margin-right:auto;
+  top:22%;
+  position:relative;
+}
+.faces{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left:0;
+  background-color:	#87CEEB;
+  backface-visibility: hidden;
+  transition: 2.5s;
+}
+.back{
+  transform: rotateY(-180deg);
+}
+#project{
+   background: url('https://wallpaperscraft.com/image/glare_light_light_background_36832_2560x1600.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%; 
+   text-align:center;
+}
+/*footer*/
+#footer{
+  background-color: rgba(36,36,39,1);
+  text-align: left;
+}
+.col-xs-4{
+  max-width: 19%;
+  margin: 35px;
+  padding: 15px;
+}
+.follow{
+  background-color: rgba(30,30,33,1);
+  width:100%;
+  height: 25%;
+  margin-top: 25%;
+  padding: 35px;
+  text-align:center;
+}
